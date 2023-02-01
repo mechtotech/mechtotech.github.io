@@ -1,8 +1,10 @@
-# Iventory Management System using Blockchain
+# Auto Replenishment of Inventory using Blockchain
 
 Walmart’s global presence, with its vast number of retail stores plus its robust and rapidly growing e-commerce business, make it one of the most challenging retail companies on the planet for inventory-related use cases.
 
 Blockchain has been technological basis for many digital currencies, but it is also emerging as an alternative to widely used technology for many other domains. We tried exploring more about the topic of Blockchain, but, being such a generic technology, we needed a specific area of application. After pondering both the benefits it could bring and the needs it could satisfy, we chose to develop a proof-of-concept (PoC) that could apply blockchain technology to a supply chain.
+
+Hyperledger Fabric is a platform for building decentralized applications and network solutions. One potential use case for Hyperledger Fabric is the auto-replenishment of inventory. In such a scenario, the inventory information of a company's supply chain could be stored in a decentralized ledger. This ledger would be maintained by a network of nodes, with each node representing a participant in the supply chain. Whenever inventory levels drop below a certain threshold, the system could automatically trigger a transaction to order more inventory from a supplier. The transaction would be verified by the nodes in the network, and once approved, would update the ledger to reflect the new inventory levels. This approach provides a more transparent and secure way of managing inventory compared to a traditional centralized system.
 
 ### Smart Contracts
 A smart contract, or what Fabric calls “chaincode”, functions as a trusted distributed application that gains its security/trust from the blockchain and the underlying consensus among the peers. It is the business logic of a blockchain application.
