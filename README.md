@@ -1,26 +1,21 @@
-# Auto Replenishment of Inventory using Blockchain
+                                                    # Auto Replenishment of Inventory using Blockchain
+ 
+### Introduction
 
 Walmart’s global presence, with its vast number of retail stores plus its robust and rapidly growing e-commerce business, make it one of the most challenging retail companies on the planet for inventory-related use cases.
 
 Blockchain has been technological basis for many digital currencies, but it is also emerging as an alternative to widely used technology for many other domains. We tried exploring more about the topic of Blockchain, but, being such a generic technology, we needed a specific area of application. After pondering both the benefits it could bring and the needs it could satisfy, we chose to develop a proof-of-concept (PoC) that could apply blockchain technology to a supply chain.
 
-Hyperledger Fabric is a platform for building decentralized applications and network solutions. One potential use case for Hyperledger Fabric is the auto-replenishment of inventory. In such a scenario, the inventory information of a company's supply chain could be stored in a decentralized ledger. This ledger would be maintained by a network of nodes, with each node representing a participant in the supply chain. Whenever inventory levels drop below a certain threshold, the system could automatically trigger a transaction to order more inventory from a supplier. The transaction would be verified by the nodes in the network, and once approved, would update the ledger to reflect the new inventory levels. This approach provides a more transparent and secure way of managing inventory compared to a traditional centralized system.
+### HyperLedger Fabric
+
+Hyperledger Fabric is a blockchain platform for developing decentralized applications (dapps). You can use smart contracts to implement an auto-replenish inventory system on Hyperledger Fabric.
+
+A smart contract in this system would hold the inventory levels and automatically execute the reordering process when the inventory reaches a certain threshold. The smart contract would trigger the ordering process, and the transaction would be recorded on the blockchain, ensuring transparency and immutability.
+
+For example, the smart contract could be programmed to automatically place an order for more inventory with a supplier when the current inventory drops below a certain level. The supplier would then fulfill the order, and the updated inventory levels would be recorded in the blockchain, making the entire process secure and tamper-proof.
+
+Overall, using smart contracts on Hyperledger Fabric provides a secure, transparent, and automated solution for managing inventory replenishment.
 
 ### Smart Contracts
-A smart contract, or what Fabric calls “chaincode”, functions as a trusted distributed application that gains its security/trust from the blockchain and the underlying consensus among the peers. It is the business logic of a blockchain application.
-
-There are three key points that apply to smart contracts, especially when applied to a platform:
-
-many smart contracts run concurrently in the network,
-they may be deployed dynamically (in many cases by anyone), and
-application code should be treated as untrusted, potentially even malicious.
-Most existing smart-contract capable blockchain platforms follow an order-execute architecture in which the consensus protocol:
-
-validates and orders transactions then propagates them to all peer nodes,
-each peer then executes the transactions sequentially.
-The order-execute architecture can be found in virtually all existing blockchain systems, ranging from public/permissionless platforms such as Ethereum (with PoW-based consensus) to permissioned platforms such as Tendermint, Chain, and Quorum.
-
-Smart contracts executing in a blockchain that operates with the order-execute architecture must be deterministic; otherwise, consensus might never be reached. To address the non-determinism issue, many platforms require that the smart contracts be written in a non-standard, or domain-specific language (such as Solidity) so that non-deterministic operations can be eliminated. This hinders wide-spread adoption because it requires developers writing smart contracts to learn a new language and may lead to programming errors.
-
 Further, since all transactions are executed sequentially by all nodes, performance and scale is limited. The fact that the smart contract code executes on every node in the system demands that complex measures be taken to protect the overall system from potentially malicious contracts in order to ensure resiliency of the overall system.
 
