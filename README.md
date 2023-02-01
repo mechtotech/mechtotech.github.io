@@ -29,16 +29,4 @@ For example, a smart contract could be programmed to trigger an order for a new 
 
 
 
-### Disdvanatges
-
-1. Complexity: Hyperledger Fabric is a complex technology that requires specialized knowledge and resources to implement and maintain. This can pose a challenge for organizations with limited technical expertise.
-
-2. Performance: Depending on the size and complexity of the inventory management system, the performance of Hyperledger Fabric may be slower compared to other centralized solutions.
-
-3. Cost: Implementing and maintaining a Hyperledger Fabric-based system can be expensive
-
-4. Adoption: Hyperledger Fabric is still a relatively new technology and its adoption rate is relatively low compared to other solutions. This can make it difficult for organizations to find skilled professionals to implement and maintain the system.
-
-5. Integration: Integrating Hyperledger Fabric with existing systems can be challenging and may require significant effort and resources.
-
 
