@@ -15,7 +15,7 @@ Smart contracts in Hyperledger Fabric are self-executing contracts with the term
 For example, a smart contract could be programmed to trigger an order for a new shipment of inventory when the current stock levels reach a specified threshold. The contract would be stored on the ledger and would be executed automatically when the conditions are met, eliminating the need for manual intervention.The contracts are stored on a decentralized ledger, making it tamper-proof and providing a clear audit trail of all transactions.
 
 <a href="https://github.com/mechtotech/mechtotech.github.io/blob/main/Presentation%20(1).mp4">Auto Replenishment of Inventory using HyperLedger Fabric</a>
-
+<iframe src="https://player.vimeo.com/video/794947772?h=c483be5531&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Presentation (1) (1).mp4"></iframe>
 
 ### Advantages: 
 
