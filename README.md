@@ -1,4 +1,4 @@
-######Iventory Management System using Blockchain
+# Iventory Management System using Blockchain
 
 Walmart’s global presence, with its vast number of retail stores plus its robust and rapidly growing e-commerce business, make it one of the most challenging retail companies on the planet for inventory-related use cases.
 
