@@ -1,4 +1,4 @@
-                                                    # Auto Replenishment of Inventory using Blockchain
+# Auto Replenishment of Inventory using Blockchain
  
 ### Introduction
 
